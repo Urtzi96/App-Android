@@ -12,6 +12,10 @@
         <activity android:name=".MainActivity">
 
         </activity>
+
+        <activity android:name=".DatosActivity">
+        </activity>
+
         <activity android:name=".SplashActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <intent-filter>
