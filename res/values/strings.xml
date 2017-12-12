@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CebancBurger</string>
+    <string name="direccion">Dirección</string>
+    <string name="e_mail">E-mail</string>
+    <string name="introduce_tus_datos">Introduce tus datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="salir">Salir</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="_0">0</string>
+    <string name="a_adir">Añadir</string>
+    <string name="cantidad">Cantidad</string>
+</resources>
