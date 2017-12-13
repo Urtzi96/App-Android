@@ -1,12 +1,32 @@
-
+package com.example.urtzi.cebancburger;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+import com.example.urtzi.cebancburger.R;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button ubicacion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ubicacion = (Button)findViewById(R.id.maps);
+
+        ubicacion.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View arg0){
+
+                Intent intent=  new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent);
+            }
+
+        });
     }
 }
