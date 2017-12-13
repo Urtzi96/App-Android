@@ -1,7 +1,9 @@
-package com.example.adminportatil.cebancburger;
+package com.example.urtzi.cebancburger;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.urtzi.cebancburger.R;
 
 public class DatosActivity extends AppCompatActivity {
 
